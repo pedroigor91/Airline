@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airline.WebApi", "src\Airline.WebApi\Airline.WebApi.csproj", "{91426A88-EC8F-44D8-956E-5D70FD73B747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airline.SendAgent", "src\Airline.SendAgent\Airline.SendAgent.csproj", "{535684FB-2C60-477B-A181-4DFABF6AA9B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airline.TravelAgentWeb", "src\Airline.TravelAgentWeb\Airline.TravelAgentWeb.csproj", "{6F01C853-C015-4CB4-9182-B3BE2BAE4017}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91426A88-EC8F-44D8-956E-5D70FD73B747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91426A88-EC8F-44D8-956E-5D70FD73B747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91426A88-EC8F-44D8-956E-5D70FD73B747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91426A88-EC8F-44D8-956E-5D70FD73B747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535684FB-2C60-477B-A181-4DFABF6AA9B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535684FB-2C60-477B-A181-4DFABF6AA9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535684FB-2C60-477B-A181-4DFABF6AA9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535684FB-2C60-477B-A181-4DFABF6AA9B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F01C853-C015-4CB4-9182-B3BE2BAE4017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F01C853-C015-4CB4-9182-B3BE2BAE4017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F01C853-C015-4CB4-9182-B3BE2BAE4017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F01C853-C015-4CB4-9182-B3BE2BAE4017}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
