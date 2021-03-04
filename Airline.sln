@@ -1,10 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airline.WebApi", "src\Airline.WebApi\Airline.WebApi.csproj", "{91426A88-EC8F-44D8-956E-5D70FD73B747}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirlineSendAgent", "AirlineSendAgent\AirlineSendAgent.csproj", "{028A0F99-3650-4507-A810-9A4523AFE559}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airline.SendAgent", "src\Airline.SendAgent\Airline.SendAgent.csproj", "{535684FB-2C60-477B-A181-4DFABF6AA9B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirlineWeb", "AirlineWeb\AirlineWeb.csproj", "{46606B46-96E1-42EA-8876-799607699386}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airline.TravelAgentWeb", "src\Airline.TravelAgentWeb\Airline.TravelAgentWeb.csproj", "{6F01C853-C015-4CB4-9182-B3BE2BAE4017}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelAgentWeb", "TravelAgentWeb\TravelAgentWeb.csproj", "{E3E5601F-5BF4-4674-904D-C82768E040F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E34BFE60-5F2A-4631-BC4F-22220468253F}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,17 +20,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{91426A88-EC8F-44D8-956E-5D70FD73B747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91426A88-EC8F-44D8-956E-5D70FD73B747}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91426A88-EC8F-44D8-956E-5D70FD73B747}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91426A88-EC8F-44D8-956E-5D70FD73B747}.Release|Any CPU.Build.0 = Release|Any CPU
-		{535684FB-2C60-477B-A181-4DFABF6AA9B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{535684FB-2C60-477B-A181-4DFABF6AA9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{535684FB-2C60-477B-A181-4DFABF6AA9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{535684FB-2C60-477B-A181-4DFABF6AA9B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F01C853-C015-4CB4-9182-B3BE2BAE4017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F01C853-C015-4CB4-9182-B3BE2BAE4017}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F01C853-C015-4CB4-9182-B3BE2BAE4017}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F01C853-C015-4CB4-9182-B3BE2BAE4017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028A0F99-3650-4507-A810-9A4523AFE559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028A0F99-3650-4507-A810-9A4523AFE559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028A0F99-3650-4507-A810-9A4523AFE559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028A0F99-3650-4507-A810-9A4523AFE559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46606B46-96E1-42EA-8876-799607699386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46606B46-96E1-42EA-8876-799607699386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46606B46-96E1-42EA-8876-799607699386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46606B46-96E1-42EA-8876-799607699386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E5601F-5BF4-4674-904D-C82768E040F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E5601F-5BF4-4674-904D-C82768E040F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E5601F-5BF4-4674-904D-C82768E040F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E5601F-5BF4-4674-904D-C82768E040F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1822B6A1-3562-4BE8-A6F2-4B41BE54C84F}
 	EndGlobalSection
 EndGlobal
